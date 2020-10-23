@@ -1,0 +1,3 @@
+En esta entrega se encuentra un .rar, en el cual está empaquetado el proyecto que se realizó,
+y además en este documento dejo enlace al repositorio donde está disponible el mismo proyecto:
+https://github.com/jisazamp/LoginSimple
