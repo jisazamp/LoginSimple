@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>UPBVirtual - Login</title>
+</head>
+<body>  
+    <!-- Formulario del login -->
+    <div class="container">
+        <form id="login-form" action="action_page.php" method="post">
+            <!-- Contenedor para una imagen -->
+            <div class="imgcontainer">
+            <img src="./img/avatar.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <!-- Campos del login -->
+            <div class="container">
+            <label for="uname"><b>Usuario</b></label>
+            <input type="text" placeholder="Ingrese su usuario" name="uname" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Ingrese su contraseña" name="psw" required>
+        
+            <button id="login-form-submit" type="submit">Enviar</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Recuérdame
+            </label>
+            </div>
+        
+            <!-- Botón de cancelar y de recuperación de contraseña -->
+            <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <span class="psw"><a href="#">Olvidé mi contraseña</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
